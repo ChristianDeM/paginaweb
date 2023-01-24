@@ -1,5 +1,7 @@
-$BackColor:rgb(248, 252, 240);
-$colorsection:rgb(46, 47, 43);
+$BackColor:#F5F6F0;
+$colorsection:#353535;
+$colorbox:#C59877;
+$colorbox2: #637482;
 
 body{
     background-color: $BackColor;
@@ -81,5 +83,37 @@ body{
         filter: grayscale(100%);
          -webkit-filter: grayscale(100%);
         -moz-filter: grayscale(100%);
+    }
+}
+
+
+#testimonio{
+    background-color: $colorbox2;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    h5{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+    }
+    p{
+        color: white;
+        text-align: justify;
+    }
+
+    .boxtestimonio{
+        background-color: #C59877;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: -3px 5px 29px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -3px 5px 29px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -3px 5px 29px 0px rgba(0,0,0,0.75);
+        border-radius: 15px 15px 15px 15px;
+        -webkit-border-radius: 15px 15px 15px 15px;
+        -moz-border-radius: 15px 15px 15px 15px;
     }
 }
