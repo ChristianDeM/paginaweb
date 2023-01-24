@@ -1,0 +1,36 @@
+$BackColor:rgb(248, 252, 240);
+
+body{
+    background-color: $BackColor;
+}
+
+.cat{
+    background-color: rgb(39, 59, 208);
+}
+
+#baner{
+        padding-top: 18%;
+        padding-bottom: 18%;
+
+        h1{
+            font-size: 90px;
+            font-weight: bold;
+        }
+        p{
+            text-align: justify;
+        }
+    .InfoBaner{
+        background-color: azure; 
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+     
+    .InfoImg{ 
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+}
