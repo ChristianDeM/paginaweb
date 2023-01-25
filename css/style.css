@@ -167,4 +167,13 @@ body {
   -webkit-border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
 }
+
+#Proyectos {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#footer {
+  background-color: #353535;
+}
 /*# sourceMappingURL=style.css.map */
