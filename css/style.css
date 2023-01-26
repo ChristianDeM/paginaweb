@@ -173,7 +173,28 @@ body {
   padding-bottom: 5%;
 }
 
+#Proyectos .btn {
+  background-color: #637482;
+  color: white;
+}
+
 #footer {
   background-color: #353535;
+}
+
+#footer h4 {
+  color: #F5F6F0;
+}
+
+#footer ul {
+  color: #F5F6F0;
+}
+
+#footer li {
+  color: #F5F6F0;
+}
+
+#footer a {
+  color: #F5F6F0;
 }
 /*# sourceMappingURL=style.css.map */

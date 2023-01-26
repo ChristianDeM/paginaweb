@@ -122,9 +122,26 @@ body{
 #Proyectos{
     padding-top: 5%;
     padding-bottom: 5%;
+    .btn{
+        background-color: #637482;
+        color: white;
+    }
     
 }
 
 #footer{
     background-color: $colorsection;
+    h4{
+        color:#F5F6F0;
+    }
+    ul{
+        color: #F5F6F0;
+    }
+    li{
+        color:#F5F6F0;
+    }
+    a{
+        color:#F5F6F0;
+    }
+
 }
